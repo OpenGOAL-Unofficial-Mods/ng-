@@ -1189,7 +1189,7 @@
        (logior! (-> *game-info* purchase-secrets) (game-secrets hero-mode))
        )
       )
-    (set-continue! obj "game-start" #f)
+    (set-continue! obj "finalboss-fight" #f)
     (set! arg0 arg0)
     (goto cfg-230)
     )
